@@ -82,7 +82,7 @@ This `assests` branch is also a great place to store your showcase script and ha
 You can now link to your stored GIF in your `README.md` (or anywhere) using its GitHub raw URL. This the preferred way of linking it since it will keep the `README` in tact in case it is moved somewhere else or viewed outside of git context. The URL will look something like this:
 
 ```plain
-https://raw.githubusercontent.com/user/repo/refs/heads/assets/showcase.gif
+https://raw.githubusercontent.com/USER/REPO/refs/heads/assets/showcase.gif
 ```
 
 ### GitHub supports theming images
@@ -91,9 +91,9 @@ You can [add images specific to the viewer's dark/light mode](https://github.blo
 
 ```html
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/user/repo/refs/heads/assets/showcase-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/user/repo/refs/heads/assets/showcase-light.gif">
-  <img alt="Showcase" src="https://raw.githubusercontent.com/user/repo/refs/heads/assets/showcase-dark.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/USER/REPO/refs/heads/assets/showcase-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/USER/REPO/refs/heads/assets/showcase-light.gif">
+  <img alt="Showcase" src="https://raw.githubusercontent.com/USER/REPO/refs/heads/assets/showcase-dark.gif">
 </picture>
 ```
 
