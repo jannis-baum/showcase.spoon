@@ -21,7 +21,7 @@ and empty lines are skipped.
 
 ## Examples
 
-Projects that use this to create their showcase:
+The showcase you see above is scripted in [`example.txt`](example.txt). Some other projects that use this to create their showcase are:
 
 - [Vivify](https://github.com/jannis-baum/Vivify) and its [showcase script](https://github.com/jannis-baum/Vivify/blob/assets/showcase-script.txt)
 - [Jupyviv](https://github.com/jannis-baum/Jupyviv) and its [showcase script](https://github.com/jannis-baum/Jupyviv/blob/assets/showcase-script.txt)

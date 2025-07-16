@@ -1,0 +1,33 @@
+# Example showcase file for this project
+#
+# Note: The delays are not needed for functionality but for the dramatic effect
+# so it's nicer to look at :)
+
+# activate browser (Zen)
+execute: hs.application.get("Zen"):activate()
+
+# type comment in GitHub
+delay: 0.5
+type: Of course we need this!
+delay: 0.5
+
+# go to kitty terminal
+execute: hs.application.get("kitty"):activate()
+delay: 0.5
+
+# open the README in nvim
+type: nvim README.md
+delay: 0.5
+key: return
+delay: 0.5
+
+# add comment
+type: o
+key: return
+delay: 0.3
+type: Here is where the GIF should go!
+delay: 1
+key: escape
+type: :wqa
+delay: 0.5
+key: return
