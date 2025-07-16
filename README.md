@@ -29,7 +29,25 @@ This is some advice for how to record, handle and add your GIF to your README. S
 - Hit `cmd-shift 5`, select "Record Selected Portion", select the part of your screen you want to record, and hit "Record" to start the recording
 - After having loaded the showcase Spoon, run `RunShowcase("/path/to/your/script.txt")` in the Hammerspoon console.
 - The console will close automatically and your script will run
-- Once it is done, click the button in the menubar to stop the recording
+- Once it is done, click the button in the menubar or hit `cmd-ctrl escape` to stop the recording
+
+> [!tip]
+> You can also start and stop the recording automatically with your showcase script after having configured the selected portion:
+>
+> ```plain
+> # start recording
+> key: cmd-shift 5
+> delay: 0.3
+> key: return
+> delay: 0.3
+>
+> # ... your script
+>
+> # stop recording
+> key: cmd-ctrl escape
+> ```
+>
+> Note that the delays are needed.
 
 ### Making a GIF
 

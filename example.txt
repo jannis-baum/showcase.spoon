@@ -6,6 +6,12 @@
 # activate browser (Zen)
 execute: hs.application.get("Zen"):activate()
 
+# start recording
+key: cmd-shift 5
+delay: 0.3
+key: return
+delay: 0.3
+
 # type comment in GitHub
 delay: 0.5
 type: Of course we need this!
@@ -31,3 +37,7 @@ key: escape
 type: :wqa
 delay: 0.5
 key: return
+delay: 0.5
+
+# stop recording
+key: cmd-ctrl escape
