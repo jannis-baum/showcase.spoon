@@ -109,10 +109,16 @@ local function process_lines(lines)
     end
 end
 
-function RunShowcase(showcase_file)
+function RunShowcase(showcase_file, keep_console)
     local lines = {}
     for line in io.lines(showcase_file) do
         table.insert(lines, line)
+    end
+    if keep_console == nil then
+        local console_window = hs.console.hswindow()
+        if console_window ~= nil then
+            console_window:close()
+        end
     end
     process_lines(lines)
 end
