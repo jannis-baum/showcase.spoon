@@ -85,6 +85,8 @@ You can now link to your stored GIF in your `README.md` (or anywhere) using its 
 https://raw.githubusercontent.com/USER/REPO/refs/heads/assets/showcase.gif
 ```
 
+Alternatively, you can also opt to create a separate repository only for storing assets. This way, your whole repo is kept slim.
+
 ### GitHub supports theming images
 
 You can [add images specific to the viewer's dark/light mode](https://github.blog/developer-skills/github/how-to-make-your-images-in-markdown-on-github-adjust-for-dark-mode-and-light-mode/) to GitHub. Since you are already using a script to do all the work, it's a great opportunity to make your README look nice for everyone.
@@ -106,5 +108,5 @@ You can [add images specific to the viewer's dark/light mode](https://github.blo
 
 The showcase you see above is scripted in [`example.txt`](example.txt). Some other projects that use this to create their showcase are:
 
-- [Vivify](https://github.com/jannis-baum/Vivify) and its [showcase script](https://github.com/jannis-baum/Vivify/blob/assets/showcase-script.txt)
-- [Jupyviv](https://github.com/jannis-baum/Jupyviv) and its [showcase script](https://github.com/jannis-baum/Jupyviv/blob/assets/showcase-script.txt)
+- [Vivify](https://github.com/jannis-baum/Vivify) and its [showcase script](https://github.com/jannis-baum/assets/blob/main/Vivify/showcase-script.txt)
+- [Jupyviv](https://github.com/jannis-baum/Jupyviv) and its [showcase script](https://github.com/jannis-baum/assets/blob/main/Jupyviv/showcase-script.txt)
