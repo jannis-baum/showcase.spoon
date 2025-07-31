@@ -36,7 +36,7 @@ local function type_text(input, next)
         char = named_keys[char]
     end
     hs.eventtap.keyStroke(mods, char, 0)
-    hs.timer.doAfter(0.03, function()
+    hs.timer.doAfter(0.04, function()
         type_text(input:sub(2), next)
     end)
 end
